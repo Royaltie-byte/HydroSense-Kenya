@@ -13,3 +13,12 @@ AI Output Summary: Generated pandas loading and inspection code, a full data dic
 Accepted: Partly
 Modified: Plot code was written independently by the student. AI was used only for troubleshooting plot-related issues and generating all text-based content.
 Validation Method: Functions verified by manually substituting known values and checking output against the ET formula and water balance equation. Plot verified visually by the student against the raw dataset values. Text content checked against project brief requirements and project scenario section.
+
+
+Entry 3.
+
+Prompt Used: Generate the error propagation experiment for Level 2 Task 5, including noise simulation across 1000 iterations, summary statistics, and a plot showing ET and irrigation distributions under sensor noise.
+AI Output Summary: Generated a 1000-simulation error propagation experiment with random noise added to all four weather variables, summary statistics for both ET and irrigation recommendations, and a dual-panel matplotlib plot showing the distributions under noise.
+Accepted: Partly
+Modified: Syntax simplified to match student coding style. Plot styling adjusted to be consistent with the rest of the notebook.
+Validation Method: Results checked for statistical reasonableness — ET spread should be small relative to the clean ET mean. Irrigation recommendation range checked against known target and current moisture values.
